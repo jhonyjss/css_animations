@@ -1,0 +1,38 @@
+.lesson-box {
+	width: 100%;
+	border: 2px solid blueviolet;
+	height: 150px;
+	margin: 25px 25px;
+}
+.vertical-center {
+	min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+	display: flex;
+	align-items: center;
+}
+.lesson-box button {
+	background: blueviolet;
+	color: white;
+	transition-property: translate();
+	transition-duration: 1s;
+}
+.lesson-box button:hover {
+	background: orangered;
+	color: white;
+}
+#ease {
+	transition-timing-function: ease !important;
+}
+#ease-in {
+	transition-timing-function: ease-in !important;
+}
+#ease-in-out {
+	transition-timing-function: ease-in-out !important;
+}
+#ease-out {
+	transition-timing-function: ease-out !important;
+}
+#linear {
+	transition-timing-function: linear !important;
+}
