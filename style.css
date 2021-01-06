@@ -36,3 +36,9 @@
 #linear {
 	transition-timing-function: linear !important;
 }
+.img-transform {
+	transition: transform 1s;
+}
+.img-transform:hover {
+	transform: translate(0px, -100px);
+}
